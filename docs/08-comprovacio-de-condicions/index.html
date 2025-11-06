@@ -8,23 +8,25 @@
       
       
       
+        <link rel="prev" href="../07-variables-i-tipus/">
       
-        <link rel="next" href="01-introduccio-a-java/">
+      
+        <link rel="next" href="../09-bucles/">
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.23">
     
     
       
-        <title>Apunts UD02 — Introducció a Java (DAM)</title>
+        <title>8. Comprovació de condicions - Apunts UD02 — Introducció a Java (DAM)</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.84d31ad4.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.84d31ad4.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -43,16 +45,16 @@
       
     
     
-      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="../style.css">
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
     
     
     
-  <link href="assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+  <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
             html.glightbox-open { overflow: initial; height: 100%; }
             .gslide-title { margin-top: 0px; user-select: text; }
             .gslide-desc { color: #666; user-select: text; }
@@ -81,7 +83,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#apunts-ud02-programacio-1r-dam" class="md-skip">
+        <a href="#8-comprovacio-de-condicions" class="md-skip">
           Salta el contingut
         </a>
       
@@ -95,7 +97,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Capçalera">
-    <a href="." title="Apunts UD02 — Introducció a Java (DAM)" class="md-header__button md-logo" aria-label="Apunts UD02 — Introducció a Java (DAM)" data-md-component="logo">
+    <a href=".." title="Apunts UD02 — Introducció a Java (DAM)" class="md-header__button md-logo" aria-label="Apunts UD02 — Introducció a Java (DAM)" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
@@ -115,7 +117,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Inici
+              8. Comprovació de condicions
             
           </span>
         </div>
@@ -212,11 +214,9 @@
   
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="." class="md-tabs__link">
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
         
   
   
@@ -233,11 +233,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="01-introduccio-a-java/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../01-introduccio-a-java/" class="md-tabs__link">
           
   
   
@@ -271,7 +273,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegació" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Apunts UD02 — Introducció a Java (DAM)" class="md-nav__button md-logo" aria-label="Apunts UD02 — Introducció a Java (DAM)" data-md-component="logo">
+    <a href=".." title="Apunts UD02 — Introducció a Java (DAM)" class="md-nav__button md-logo" aria-label="Apunts UD02 — Introducció a Java (DAM)" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
@@ -286,19 +288,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
         
   
   
@@ -309,7 +302,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -318,26 +310,31 @@
       
   
   
+    
   
   
+  
     
     
     
     
+      
+        
+        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2">
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   
@@ -350,7 +347,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             UD02
@@ -364,7 +361,7 @@
   
   
     <li class="md-nav__item">
-      <a href="01-introduccio-a-java/" class="md-nav__link">
+      <a href="../01-introduccio-a-java/" class="md-nav__link">
         
   
   
@@ -387,7 +384,7 @@
   
   
     <li class="md-nav__item">
-      <a href="03-introduccio/" class="md-nav__link">
+      <a href="../03-introduccio/" class="md-nav__link">
         
   
   
@@ -410,7 +407,7 @@
   
   
     <li class="md-nav__item">
-      <a href="02-agenda/" class="md-nav__link">
+      <a href="../02-agenda/" class="md-nav__link">
         
   
   
@@ -433,7 +430,7 @@
   
   
     <li class="md-nav__item">
-      <a href="03-introduccio/" class="md-nav__link">
+      <a href="../03-introduccio/" class="md-nav__link">
         
   
   
@@ -456,7 +453,7 @@
   
   
     <li class="md-nav__item">
-      <a href="04-installacio-del-jdk/" class="md-nav__link">
+      <a href="../04-installacio-del-jdk/" class="md-nav__link">
         
   
   
@@ -479,7 +476,7 @@
   
   
     <li class="md-nav__item">
-      <a href="05-installacio-de-visual-studio-code/" class="md-nav__link">
+      <a href="../05-installacio-de-visual-studio-code/" class="md-nav__link">
         
   
   
@@ -502,7 +499,7 @@
   
   
     <li class="md-nav__item">
-      <a href="06-el-primer-programa-hola-mon/" class="md-nav__link">
+      <a href="../06-el-primer-programa-hola-mon/" class="md-nav__link">
         
   
   
@@ -525,7 +522,7 @@
   
   
     <li class="md-nav__item">
-      <a href="07-variables-i-tipus/" class="md-nav__link">
+      <a href="../07-variables-i-tipus/" class="md-nav__link">
         
   
   
@@ -545,10 +542,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="08-comprovacio-de-condicions/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    8. Comprovació de condicions
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -559,6 +578,62 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Taula de continguts">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Taula de continguts
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#diagrama-de-flux" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagrama de flux
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#if-else" class="md-nav__link">
+    <span class="md-ellipsis">
+      if / else
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#switch" class="md-nav__link">
+    <span class="md-ellipsis">
+      switch
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#operador-condicional-ternari" class="md-nav__link">
+    <span class="md-ellipsis">
+      Operador condicional (ternari)
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -571,7 +646,7 @@
   
   
     <li class="md-nav__item">
-      <a href="09-bucles/" class="md-nav__link">
+      <a href="../09-bucles/" class="md-nav__link">
         
   
   
@@ -594,7 +669,7 @@
   
   
     <li class="md-nav__item">
-      <a href="10-tipus-de-bucles-en-java/" class="md-nav__link">
+      <a href="../10-tipus-de-bucles-en-java/" class="md-nav__link">
         
   
   
@@ -617,7 +692,7 @@
   
   
     <li class="md-nav__item">
-      <a href="11-control-del-flux-dins-dels-bucles/" class="md-nav__link">
+      <a href="../11-control-del-flux-dins-dels-bucles/" class="md-nav__link">
         
   
   
@@ -640,7 +715,7 @@
   
   
     <li class="md-nav__item">
-      <a href="12-arrays-i-cadenes/" class="md-nav__link">
+      <a href="../12-arrays-i-cadenes/" class="md-nav__link">
         
   
   
@@ -663,7 +738,7 @@
   
   
     <li class="md-nav__item">
-      <a href="13-dadesUsuari/" class="md-nav__link">
+      <a href="../13-dadesUsuari/" class="md-nav__link">
         
   
   
@@ -706,6 +781,50 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Taula de continguts
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#diagrama-de-flux" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagrama de flux
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#if-else" class="md-nav__link">
+    <span class="md-ellipsis">
+      if / else
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#switch" class="md-nav__link">
+    <span class="md-ellipsis">
+      switch
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#operador-condicional-ternari" class="md-nav__link">
+    <span class="md-ellipsis">
+      Operador condicional (ternari)
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -714,28 +833,72 @@
           
           
             <div class="md-content" data-md-component="content">
-              <article class="md-content__inner md-typeset"><a class="md-content__button md-icon" download href="pdf\combined.pdf" title="PDF Export"><svg style="height: 1.2rem; width: 1.2rem;" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M224 136V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zm76.45 211.36l-96.42 95.7c-6.65 6.61-17.39 6.61-24.04 0l-96.42-95.7C73.42 337.29 80.54 320 94.82 320H160v-80c0-8.84 7.16-16 16-16h32c8.84 0 16 7.16 16 16v80h65.18c14.28 0 21.4 17.29 11.27 27.36zM377 105L279.1 7c-4.5-4.5-10.6-7-17-7H256v128h128v-6.1c0-6.3-2.5-12.4-7-16.9z"></path></svg></a>
+              <article class="md-content__inner md-typeset"><a class="md-content__button md-icon" download href="..\pdf\combined.pdf" title="PDF Export"><svg style="height: 1.2rem; width: 1.2rem;" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M224 136V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zm76.45 211.36l-96.42 95.7c-6.65 6.61-17.39 6.61-24.04 0l-96.42-95.7C73.42 337.29 80.54 320 94.82 320H160v-80c0-8.84 7.16-16 16-16h32c8.84 0 16 7.16 16 16v80h65.18c14.28 0 21.4 17.29 11.27 27.36zM377 105L279.1 7c-4.5-4.5-10.6-7-17-7H256v128h128v-6.1c0-6.3-2.5-12.4-7-16.9z"></path></svg></a>
                 
                   
 
 
 
-<h1 id="apunts-ud02-programacio-1r-dam">Apunts UD02 — Programació 1r DAM<a class="headerlink" href="#apunts-ud02-programacio-1r-dam" title="Permanent link">¶</a></h1>
-<ul>
-<li><a href="01-introduccio-a-java/">UD02 – Introducció a Java</a></li>
-<li><a href="02-agenda/">1. Agenda</a></li>
-<li><a href="03-introduccio/">2. Introducció a Java</a></li>
-<li><a href="04-installacio-del-jdk/">3. Instal·lació del JDK</a></li>
-<li><a href="05-installacio-de-visual-studio-code/">4. Instal·lació de Visual Studio Code</a></li>
-<li><a href="06-el-primer-programa-hola-mon/">5. El primer programa: “Hola Món”</a></li>
-<li><a href="07-variables-i-tipus/">6. Variables i tipus</a></li>
-<li><a href="08-comprovacio-de-condicions/">7. Comprovació de condicions</a></li>
-<li><a href="09-bucles/">8. Bucles</a></li>
-<li><a href="10-tipus-de-bucles-en-java/">9. Tipus de bucles en Java</a></li>
-<li><a href="11-control-del-flux-dins-dels-bucles/">10. Control del flux dins dels bucles</a></li>
-<li><a href="12-arrays-i-cadenes/">11. Arrays i cadenes</a></li>
-<li><a href="13-dadesUsuari/">12. Dades introduïdes per l’usuari</a></li>
-</ul>
+<h1 id="8-comprovacio-de-condicions">8. Comprovació de condicions<a class="headerlink" href="#8-comprovacio-de-condicions" title="Permanent link">¶</a></h1>
+<hr>
+<p><small class="small">UD02 · DAM · 2025</small></p>
+<h3 id="diagrama-de-flux">Diagrama de flux<a class="headerlink" href="#diagrama-de-flux" title="Permanent link">¶</a></h3>
+<pre class="mermaid"><code>graph TD;
+  A[Inici] --&gt; B{Decisió}
+  B -- Sí --&gt; C[Acció]
+  B -- No --&gt; D[Altres accions]
+  C --&gt; E[Fins aquí]
+  D --&gt; E[Fins aquí]</code></pre>
+<h3 id="if-else">if / else<a class="headerlink" href="#if-else" title="Permanent link">¶</a></h3>
+<div class="highlight"><table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">3</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">"Correcte"</span><span class="p">);</span>
+<span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">"Incorrecte"</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></td></tr></tbody></table></div>
+<h3 id="switch">switch<a class="headerlink" href="#switch" title="Permanent link">¶</a></h3>
+<div class="highlight"><table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">switch</span><span class="w"> </span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="mi">1</span><span class="p">:</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="mi">2</span><span class="p">:</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="mi">3</span><span class="p">:</span>
+<span class="w">        </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">"Entre 1 i 3"</span><span class="p">);</span>
+<span class="w">        </span><span class="k">break</span><span class="p">;</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="mi">4</span><span class="p">:</span>
+<span class="w">    </span><span class="k">case</span><span class="w"> </span><span class="mi">5</span><span class="p">:</span>
+<span class="w">        </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">"4 o 5"</span><span class="p">);</span>
+<span class="w">        </span><span class="k">break</span><span class="p">;</span>
+<span class="w">    </span><span class="k">default</span><span class="p">:</span>
+<span class="w">        </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">"Altres valors"</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></td></tr></tbody></table></div>
+<h3 id="operador-condicional-ternari">Operador condicional (ternari)<a class="headerlink" href="#operador-condicional-ternari" title="Permanent link">¶</a></h3>
+<div class="highlight"><table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">a</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">10</span><span class="p">)</span><span class="w"> </span><span class="o">?</span><span class="w"> </span><span class="n">b</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">a</span><span class="p">;</span>
+</code></pre></div></td></tr></tbody></table></div>
+<h1 id="casa">Casa<a class="headerlink" href="#casa" title="Permanent link">¶</a></h1>
+<details class="note" open="open">
+<summary>Pregunta</summary>
+<p>Quina és l'arrel quadrada de 9?</p>
+<details class="question">
+<summary>Veure la resposta</summary>
+<p>3</p>
+</details>
+</details>
 
 
 
@@ -790,10 +953,10 @@
     
     
       
-      <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.top", "navigation.sections", "content.code.copy"], "search": "assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copiat al porta-retalls", "clipboard.copy": "C\u00f2pia al porta-retalls", "search.result.more.one": "1 m\u00e9s en aquesta p\u00e0gina", "search.result.more.other": "# m\u00e9s en aquesta p\u00e0gina", "search.result.none": "Cap document coincideix", "search.result.one": "1 document coincident", "search.result.other": "# documents coincidents", "search.result.placeholder": "Escriu per a comen\u00e7ar a cercar", "search.result.term.missing": "Desaparegut", "select.version": "Selecciona la versi\u00f3"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.top", "navigation.sections", "content.code.copy"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copiat al porta-retalls", "clipboard.copy": "C\u00f2pia al porta-retalls", "search.result.more.one": "1 m\u00e9s en aquesta p\u00e0gina", "search.result.more.other": "# m\u00e9s en aquesta p\u00e0gina", "search.result.none": "Cap document coincideix", "search.result.one": "1 document coincident", "search.result.other": "# documents coincidents", "search.result.placeholder": "Escriu per a comen\u00e7ar a cercar", "search.result.term.missing": "Desaparegut", "select.version": "Selecciona la versi\u00f3"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.f55a23d4.min.js"></script>
+      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
       
     
   
